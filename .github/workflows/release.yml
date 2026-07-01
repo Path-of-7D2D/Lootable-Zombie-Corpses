@@ -1,0 +1,86 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_tag:
+        description: "Release version tag, for example v3.0.0"
+        required: true
+        default: "3.0.0"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build release zip
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Validate release inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ ! "${{ inputs.version_tag }}" =~ ^v?[0-9]+\.[0-9]+\.[0-9]+([.-][0-9A-Za-z.-]+)?$ ]]; then
+            echo "version_tag must look like v3.0.0 or 3.0.0"
+            exit 1
+          fi
+
+          if [[ ! -d "1A-LootableZombieCorpses" ]]; then
+            echo "Expected 1A-LootableZombieCorpses to exist."
+            exit 1
+          fi
+
+          if [[ ! -f "1A-LootableZombieCorpses/ModInfo.xml" ]]; then
+            echo "Expected 1A-LootableZombieCorpses/ModInfo.xml to exist."
+            exit 1
+          fi
+
+          if [[ ! -f "1A-LootableZombieCorpses/Config/entityclasses.xml" ]]; then
+            echo "Expected 1A-LootableZombieCorpses/Config/entityclasses.xml to exist."
+            exit 1
+          fi
+
+          if [[ ! -f "1A-LootableZombieCorpses/Config/loot.xml" ]]; then
+            echo "Expected 1A-LootableZombieCorpses/Config/loot.xml to exist."
+            exit 1
+          fi
+
+          if grep -R 'loot_prob=' "1A-LootableZombieCorpses/Config"; then
+            echo "Legacy loot_prob attributes must be ported to V3 prob attributes."
+            exit 1
+          fi
+
+      - name: Create mod zip
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p artifacts
+          zip_name="LootableZombieCorpses-${{ inputs.version_tag }}.zip"
+          zip_name="${zip_name//\//-}"
+
+          zip -r "artifacts/${zip_name}" "1A-LootableZombieCorpses"
+          echo "ZIP_PATH=artifacts/${zip_name}" >> "$GITHUB_ENV"
+
+      - name: Generate changelog
+        uses: Path-of-7D2D/Changelog-Generator@main
+        with:
+          version_tag: ${{ inputs.version_tag }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output_path: CHANGELOG.md
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ inputs.version_tag }}
+          name: Lootable Zombie Corpses ${{ inputs.version_tag }}
+          body_path: CHANGELOG.md
+          files: ${{ env.ZIP_PATH }}
+          fail_on_unmatched_files: true
