@@ -4,7 +4,6 @@
         <property name="LootListOnDeath" value="zombieArleneLoot_Hard" />
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="DeadBodyHitPoints" value="300" />
@@ -12,7 +11,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieArleneFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralArleneLoot_Hard" />
@@ -21,7 +19,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieArleneRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedArleneLoot_Hard" />
@@ -30,7 +27,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMarlene']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieMarleneLoot_Hard" />
@@ -39,7 +35,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralMarleneLoot_Hard" />
@@ -48,7 +43,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedMarleneLoot_Hard" />
@@ -57,7 +51,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombiePartyGirl']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombiePartyGirlLoot_Hard" />
@@ -66,7 +59,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralPartyGirlLoot_Hard" />
@@ -75,7 +67,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombiePartyGirlRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedPartyGirlLoot_Hard" />
@@ -84,7 +75,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieNurse']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieNurseLoot_Hard" />
@@ -93,7 +83,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieNurseFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralNurseLoot_Hard" />
@@ -102,7 +91,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieNurseRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedNurseLoot_Hard" />
@@ -111,7 +99,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieJoe']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieJoeLoot_Hard" />
@@ -120,7 +107,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieJoeFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralJoeLoot_Hard" />
@@ -129,7 +115,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieJoeRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedJoeLoot_Hard" />
@@ -138,7 +123,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSteve']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieSteveLoot_Hard" />
@@ -147,7 +131,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSteveFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralSteveLoot_Hard" />
@@ -156,7 +139,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSteveRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedSteveLoot_Hard" />
@@ -165,7 +147,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieTomClark']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieTomClarkLoot_Hard" />
@@ -174,7 +155,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieTomClarkFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralTomClarkLoot_Hard" />
@@ -183,7 +163,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieTomClarkRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedTomClarkLoot_Hard" />
@@ -192,7 +171,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBusinessMan']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieBusinessManLoot_Hard" />
@@ -201,7 +179,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralBusinessManLoot_Hard" />
@@ -210,7 +187,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBusinessManRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedBusinessManLoot_Hard" />
@@ -219,7 +195,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBurnt']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieburntLoot_Hard" />
@@ -228,7 +203,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBurntFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralburntLoot_Hard" />
@@ -237,7 +211,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBurntRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedburntLoot_Hard" />
@@ -246,7 +219,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSpider']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombiespiderLoot_Hard" />
@@ -255,7 +227,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralspiderLoot_Hard" />
@@ -264,7 +235,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedspiderLoot_Hard" />
@@ -273,7 +243,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBoe']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieBoeLoot_Hard" />
@@ -282,7 +251,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBoeFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralBoeLoot_Hard" />
@@ -291,7 +259,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedBoeLoot_Hard" />
@@ -300,7 +267,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMaleHazmat']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieMaleHazmatLoot_Hard" />
@@ -309,7 +275,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralMaleHazmatLoot_Hard" />
@@ -318,7 +283,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedMaleHazmatLoot_Hard" />
@@ -327,7 +291,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieJanitor']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieJanitorLoot_Hard" />
@@ -336,7 +299,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieJanitorFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralJanitorLoot_Hard" />
@@ -345,7 +307,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieJanitorRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedJanitorLoot_Hard" />
@@ -354,7 +315,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMoe']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieMoeLoot_Hard" />
@@ -363,7 +323,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMoeFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralMoeLoot_Hard" />
@@ -372,7 +331,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedMoeLoot_Hard" />
@@ -381,7 +339,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieLab']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieLabLoot_Hard" />
@@ -390,7 +347,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieLabFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralLabLoot_Hard" />
@@ -399,7 +355,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieLabRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedLabLoot_Hard" />
@@ -408,7 +363,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieDarlene']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieDarleneLoot_Hard" />
@@ -417,7 +371,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralDarleneLoot_Hard" />
@@ -426,7 +379,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedDarleneLoot_Hard" />
@@ -435,7 +387,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieYo']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieYoLoot_Hard" />
@@ -444,7 +395,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieYoFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralYoLoot_Hard" />
@@ -453,7 +403,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieYoRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedYoLoot_Hard" />
@@ -462,7 +411,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieUtilityWorkerLoot_Hard" />
@@ -471,7 +419,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralUtilityWorkerLoot_Hard" />
@@ -480,7 +427,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedUtilityWorkerLoot_Hard" />
@@ -489,7 +435,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBiker']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieBikerLoot_Hard" />
@@ -498,7 +443,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBikerFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralBikerLoot_Hard" />
@@ -507,7 +451,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedBikerLoot_Hard" />
@@ -516,7 +459,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieLumberjack']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieLumberjackLoot_Hard" />
@@ -525,7 +467,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralLumberjackLoot_Hard" />
@@ -534,7 +475,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieLumberjackRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedLumberjackLoot_Hard" />
@@ -543,7 +483,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieFemaleFat']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -552,7 +491,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -561,7 +499,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -570,7 +507,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -579,7 +515,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -588,7 +523,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieFatHawaiianRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -598,7 +532,6 @@
         <property name="DeadBodyHitPoints" value="3000" />
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFatCopLoot_Hard" />
@@ -607,7 +540,6 @@
         <property name="DeadBodyHitPoints" value="3000" />
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralFatCopLoot_Hard" />
@@ -616,7 +548,6 @@
         <property name="DeadBodyHitPoints" value="3000" />
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedFatCopLoot_Hard" />
@@ -624,7 +555,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSkateboarder']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -633,7 +563,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -642,7 +571,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -651,7 +579,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSoldier']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieSoldierLoot_Hard" />
@@ -660,7 +587,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralSoldierLoot_Hard" />
@@ -669,7 +595,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedSoldierLoot_Hard" />
@@ -678,7 +603,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieWightFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -687,7 +611,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieWightRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralWightLoot_Hard" />
@@ -696,7 +619,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieScreamer']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedWightLoot_Hard" />
@@ -705,7 +627,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -714,7 +635,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -723,7 +643,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMutated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieMutatedLoot_Hard" />
@@ -732,7 +651,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralMutatedLoot_Hard" />
@@ -741,7 +659,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedMutatedLoot_Hard" />
@@ -750,7 +667,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieDemolition']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -759,7 +675,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -768,7 +683,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -777,7 +691,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBowler']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -786,7 +699,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBowlerFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -795,7 +707,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieBowlerRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -804,7 +715,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieInmate']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -813,7 +723,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieInmateFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -822,7 +731,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieInmateRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="generalzombieloot" />
@@ -832,7 +740,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieChuck']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieChuckLoot_Hard" />
@@ -841,7 +748,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieChuckFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralChuckLoot_Hard" />
@@ -850,7 +756,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieChuckRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedChuckLoot_Hard" />
@@ -860,7 +765,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieRancher']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRancherLoot_Hard" />
@@ -869,7 +773,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieRancherFeral']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieFeralRancherLoot_Hard" />
@@ -878,7 +781,6 @@
     <append xpath="/entity_classes/entity_class[@name='zombieRancherRadiated']">
         <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3" />
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3" />
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2" />
         <property name="LootListOnDeath" value="zombieRadiatedRancherLoot_Hard" />

@@ -2,14 +2,14 @@
 
 Lootable Zombie Corpses is a 7 Days To Die V3.0 XML port of CHAR0NTR's Lootable Zombie Corpse mod.
 
-The mod keeps zombie corpses in the world long enough to be looted, adds corpse loot lists for vanilla zombie archetypes, and keeps the source mod's harvest drops for rotting flesh, animal fat, and bones.
+The mod keeps zombie corpses in the world long enough to be looted, adds corpse loot lists for vanilla zombie archetypes, and keeps zombie harvest drops focused on rotting flesh and bones.
 
 ## Features
 
 - Makes standard zombie corpses persist for 600 seconds.
 - Adds `LootListOnDeath` entries to normal, feral, and radiated zombie variants.
 - Provides dedicated loot containers for individual zombie archetypes.
-- Keeps harvest drops for rotting flesh, animal fat, and bones on patched zombie corpses.
+- Keeps harvest drops for rotting flesh and bones on patched zombie corpses.
 - Preserves the source mod's easy, normal, and hard loot table variants in `loot.xml`.
 - Runs as an XML-only modlet with no DLL.
 
@@ -61,7 +61,7 @@ It may conflict with another mod that changes zombie corpse lifetime, zombie har
 3. Spawn or find several vanilla zombie archetypes.
 4. Kill each zombie and confirm the corpse remains long enough to interact with.
 5. Loot the corpse and confirm a zombie-specific loot container opens.
-6. Harvest the corpse with a butcher-capable tool and confirm rotting flesh, animal fat, and bones can drop.
+6. Harvest the corpse with a butcher-capable tool and confirm rotting flesh and bones can drop.
 
 ## Releasing
 
