@@ -1,6 +1,6 @@
 # Lootable Zombie Corpses
 
-Lootable Zombie Corpses is a 7 Days To Die V3.0 XML port of CHAR0NTR's Lootable Zombie Corpse mod.
+Butcher zombies for bones and rotting flesh
 
 The mod keeps zombie corpses in the world long enough to be looted, adds corpse loot lists for vanilla zombie archetypes, and keeps zombie harvest drops focused on rotting flesh and bones.
 
