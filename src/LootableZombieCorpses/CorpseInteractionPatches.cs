@@ -29,12 +29,45 @@ namespace LootableZombieCorpses
 
         internal static bool CanSearch(Entity entity)
         {
-            return IsSupported(entity) && entity.IsDead() && entity.bag != null;
+            return IsSupported(entity) && entity.IsDead() && EnsureBag(entity);
         }
 
         internal static bool IsSearchCommand(string command)
         {
             return string.Equals(command, Command, StringComparison.Ordinal);
+        }
+
+        internal static bool IsSearchContext(ILockContext context)
+        {
+            return context is Entity.EntityLockContext entityContext
+                && IsSearchCommand(entityContext.Command);
+        }
+
+        internal static bool EnsureBag(Entity entity)
+        {
+            if (entity == null)
+            {
+                return false;
+            }
+
+            if (entity.bag != null)
+            {
+                return true;
+            }
+
+            try
+            {
+                entity.InitializeBagFromLootList();
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(string.Format(
+                    "[LootableZombieCorpses] Failed to initialize corpse loot bag for {0}: {1}",
+                    entity.GetDebugName(),
+                    ex));
+            }
+
+            return entity.bag != null;
         }
 
         internal static void RequestLock(Entity entity, Entity.EntityLockContext context)
@@ -45,7 +78,22 @@ namespace LootableZombieCorpses
                 return;
             }
 
-            LockRequestMethod.Invoke(LockManager.Instance, new object[] { entity, context, (ushort)0 });
+            try
+            {
+                LockRequestMethod.Invoke(LockManager.Instance, new object[] { entity, context, (ushort)0 });
+            }
+            catch (TargetInvocationException ex)
+            {
+                Log.Error(string.Format(
+                    "[LootableZombieCorpses] Corpse lock request failed: {0}",
+                    ex.InnerException ?? ex));
+            }
+            catch (Exception ex)
+            {
+                Log.Error(string.Format(
+                    "[LootableZombieCorpses] Corpse lock request failed: {0}",
+                    ex));
+            }
         }
     }
 
@@ -105,6 +153,76 @@ namespace LootableZombieCorpses
             }
 
             return false;
+        }
+    }
+
+    [Preserve]
+    [HarmonyPatch(typeof(Entity), nameof(Entity.CanLockOnServer))]
+    internal static class CorpseServerLockPatch
+    {
+        [Preserve]
+        private static void Postfix(
+            Entity __instance,
+            int _lockingPlayerID,
+            ILockContext _context,
+            ref bool __result)
+        {
+            if (__result
+                || __instance.bag != null
+                || !CorpseInteraction.IsSupported(__instance)
+                || !__instance.IsDead()
+                || !CorpseInteraction.IsSearchContext(_context))
+            {
+                return;
+            }
+
+            if (__instance.spawnById > 0
+                && __instance.spawnById != _lockingPlayerID
+                && !__instance.spawnByAllowShare)
+            {
+                return;
+            }
+
+            __result = CorpseInteraction.EnsureBag(__instance);
+        }
+    }
+
+    [Preserve]
+    [HarmonyPatch(typeof(Entity), nameof(Entity.CanLockLocally))]
+    internal static class CorpseLocalLockPatch
+    {
+        [Preserve]
+        private static void Postfix(Entity __instance, ILockContext _context, ref bool __result)
+        {
+            if (__result
+                || !CorpseInteraction.IsSupported(__instance)
+                || !__instance.IsDead()
+                || !CorpseInteraction.IsSearchContext(_context))
+            {
+                return;
+            }
+
+            if (CorpseInteraction.EnsureBag(__instance))
+            {
+                __result = LocalPlayerUI.GetUIForPrimaryPlayer() != null;
+            }
+        }
+    }
+
+    [Preserve]
+    [HarmonyPatch(typeof(Entity), nameof(Entity.OnLockedServer))]
+    internal static class CorpseServerLockedPatch
+    {
+        [Preserve]
+        private static void Prefix(Entity __instance, bool _success, ILockContext _context)
+        {
+            if (_success
+                && CorpseInteraction.IsSupported(__instance)
+                && __instance.IsDead()
+                && CorpseInteraction.IsSearchContext(_context))
+            {
+                CorpseInteraction.EnsureBag(__instance);
+            }
         }
     }
 

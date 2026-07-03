@@ -10,8 +10,8 @@
     <Deterministic>true</Deterministic>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
-    <AssemblyVersion>3.0.1.0</AssemblyVersion>
-    <FileVersion>3.0.1.0</FileVersion>
+    <AssemblyVersion>3.0.2.0</AssemblyVersion>
+    <FileVersion>3.0.2.0</FileVersion>
 
     <Game7D2D Condition="'$(GAME_7D2D)' != ''">$(GAME_7D2D)</Game7D2D>
     <Game7D2D Condition="'$(Game7D2D)' == ''">C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die</Game7D2D>
