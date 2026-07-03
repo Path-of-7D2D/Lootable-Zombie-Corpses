@@ -2,23 +2,24 @@
 
 Butcher zombies for bones and rotting flesh
 
-The mod keeps zombie corpses in the world long enough to be looted, adds corpse loot lists for vanilla zombie archetypes, and keeps zombie harvest drops focused on rotting flesh and bones.
+The mod keeps zombie corpses in the world long enough to be searched, adds corpse loot lists for vanilla zombie archetypes, and keeps zombie harvest drops focused on rotting flesh and bones.
 
 ## Features
 
 - Makes standard zombie corpses persist for 600 seconds.
-- You can now get bones and rotting flesh from zombie corpses by butchering them
+- Adds an interact/search prompt to supported zombie corpses.
+- You can get bones and rotting flesh from zombie corpses by butchering them.
 
 ## Requirements
 
 - 7 Days To Die V3.0.
-- No DLL required.
+- The game's bundled `0_TFP_Harmony` mod.
 
-Easy Anti-Cheat can stay enabled because this is an XML-only modlet.
+This mod uses Harmony, so Easy Anti-Cheat must be off. The mod is marked with `SkipWithAntiCheat`.
 
 ## Installation
 
-1. Download the latest `LootableZombieCorpses-*.zip` from the [GitHub Releases](https://github.com/Path-of-7D2D/Lootable-Zombie-Corpses-Port/releases) page.
+1. Download the latest `LootableZombieCorpses-*.zip` from the [GitHub Releases](https://github.com/Path-of-7D2D/Lootable-Zombie-Corpses/releases) page.
 2. Extract the release zip.
 3. Copy the `1A-LootableZombieCorpses` folder into your `Mods` folder:
 
@@ -38,6 +39,6 @@ Install the mod on the server and every connecting client so corpse loot behavio
 
 ## Compatibility
 
-This mod patches `entityclasses.xml` and appends loot containers in `loot.xml`.
+This mod patches `entityclasses.xml`, appends loot containers in `loot.xml`, and uses Harmony to expose the V3 search interaction on marked dead zombies.
 
-It may conflict with another mod that changes zombie corpse lifetime, zombie harvest drops, zombie `LootListOnDeath` properties, or loot containers with the same names.
+It may conflict with another mod that changes zombie corpse lifetime, zombie harvest drops, zombie `LootList` properties, entity activation behavior, or loot containers with the same names.

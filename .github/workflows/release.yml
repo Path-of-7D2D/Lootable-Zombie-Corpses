@@ -6,7 +6,7 @@ on:
       version_tag:
         description: "Release version tag, for example v3.0.0"
         required: true
-        default: "3.0.0"
+        default: "3.0.1"
 
 permissions:
   contents: write
@@ -49,6 +49,11 @@ jobs:
 
           if [[ ! -f "1A-LootableZombieCorpses/Config/loot.xml" ]]; then
             echo "Expected 1A-LootableZombieCorpses/Config/loot.xml to exist."
+            exit 1
+          fi
+
+          if [[ ! -f "1A-LootableZombieCorpses/LootableZombieCorpses.dll" ]]; then
+            echo "Expected 1A-LootableZombieCorpses/LootableZombieCorpses.dll to exist."
             exit 1
           fi
 

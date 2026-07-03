@@ -2,8 +2,10 @@
 <xml>
 	<Name value="LootableZombieCorpses" />
 	<DisplayName value="Lootable Zombie Corpses" />
-	<Description value="Ports CHAR0NTR's Lootable Zombie Corpse mod to 7 Days To Die V3.0 with corpse loot tables and harvestable remains." />
+	<Description value="Ports CHAR0NTR's Lootable Zombie Corpse mod to 7 Days To Die V3.0 with searchable corpse loot and harvestable remains." />
 	<Author value="CHAR0NTR, Path-of-7D2D" />
-	<Version value="3.0.0" />
-	<Website value="https://github.com/Path-of-7D2D/Lootable-Zombie-Corpses-Port" />
+	<Version value="3.0.1" />
+	<Website value="https://github.com/Path-of-7D2D/Lootable-Zombie-Corpses" />
+	<!-- Uses Harmony to restore corpse search interaction removed from V3. -->
+	<SkipWithAntiCheat value="true" />
 </xml>
