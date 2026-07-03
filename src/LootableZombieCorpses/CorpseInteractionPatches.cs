@@ -157,7 +157,7 @@ namespace LootableZombieCorpses
     }
 
     [Preserve]
-    [HarmonyPatch(typeof(Entity), nameof(Entity.CanLockOnServer))]
+    [HarmonyPatch(typeof(EntityAlive), nameof(EntityAlive.CanLockOnServer))]
     internal static class CorpseServerLockPatch
     {
         [Preserve]
@@ -168,7 +168,6 @@ namespace LootableZombieCorpses
             ref bool __result)
         {
             if (__result
-                || __instance.bag != null
                 || !CorpseInteraction.IsSupported(__instance)
                 || !__instance.IsDead()
                 || !CorpseInteraction.IsSearchContext(_context))
@@ -183,12 +182,12 @@ namespace LootableZombieCorpses
                 return;
             }
 
-            __result = CorpseInteraction.EnsureBag(__instance);
+            __result = __instance.bag != null || CorpseInteraction.EnsureBag(__instance);
         }
     }
 
     [Preserve]
-    [HarmonyPatch(typeof(Entity), nameof(Entity.CanLockLocally))]
+    [HarmonyPatch(typeof(EntityAlive), nameof(EntityAlive.CanLockLocally))]
     internal static class CorpseLocalLockPatch
     {
         [Preserve]
