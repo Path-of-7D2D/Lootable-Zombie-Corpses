@@ -37,6 +37,8 @@ The folder is installed correctly when this file exists:
 
 Install the mod on the server and every connecting client so corpse loot behavior and loot table definitions stay consistent.
 
+Players seeing `This item is in use` on every corpse are usually running a stale client or server build. Update the server and all clients to the same current release.
+
 ## Compatibility
 
 This mod patches `entityclasses.xml`, appends loot containers in `loot.xml`, and uses Harmony to expose the V3 search interaction on marked dead zombies.
