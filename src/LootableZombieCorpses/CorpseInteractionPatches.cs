@@ -17,7 +17,8 @@ namespace LootableZombieCorpses
 
         internal static bool IsSupported(Entity entity)
         {
-            if (!(entity is EntityZombie))
+            if (!LootableZombieCorpsesSettings.EnableCorpseLooting
+                || !(entity is EntityZombie))
             {
                 return false;
             }

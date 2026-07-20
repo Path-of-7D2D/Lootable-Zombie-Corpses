@@ -9,7 +9,10 @@ namespace LootableZombieCorpses
     {
         public void InitMod(Mod _modInstance)
         {
-            if (!CorpseInteraction.IsRuntimeReady)
+            LootableZombieCorpsesSettings.Load(_modInstance);
+
+            if (LootableZombieCorpsesSettings.EnableCorpseLooting
+                && !CorpseInteraction.IsRuntimeReady)
             {
                 throw new MissingMethodException(
                     "Could not find the V3 entity lock method required for corpse search.");
@@ -18,7 +21,8 @@ namespace LootableZombieCorpses
             new Harmony("com.pathof7d2d.lootablezombiecorpses")
                 .PatchAll(typeof(LootableZombieCorpsesModApi).Assembly);
 
-            Log.Out("[LootableZombieCorpses] V3 corpse search interaction loaded.");
+            Log.Out("[LootableZombieCorpses] V3 corpse search interaction loaded. Corpse looting: "
+                + (LootableZombieCorpsesSettings.EnableCorpseLooting ? "enabled" : "disabled") + ".");
         }
     }
 }

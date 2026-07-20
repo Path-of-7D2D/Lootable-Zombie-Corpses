@@ -10,6 +10,16 @@ The mod keeps zombie corpses in the world long enough to be searched, adds corps
 - Adds an interact/search prompt to supported zombie corpses.
 - You can get bones and rotting flesh from zombie corpses by butchering them.
 
+## Configuration
+
+Edit `LootableZombieCorpses.xml` in the installed mod folder and restart the game or server after changing it.
+
+```xml
+<EnableCorpseLooting value="false" />
+```
+
+Setting this to `false` removes the corpse search interaction. Zombie corpses can still be harvested for bones and rotting flesh. The default is `true`.
+
 ## Requirements
 
 - 7 Days To Die V3.0.
@@ -36,6 +46,8 @@ The folder is installed correctly when this file exists:
 ## Multiplayer
 
 Install the mod on the server and every connecting client so corpse loot behavior and loot table definitions stay consistent.
+
+Use the same `EnableCorpseLooting` value on the server and every client.
 
 Players seeing `This item is in use` on every corpse are usually running a stale client or server build. Update the server and all clients to the same current release.
 
